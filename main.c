@@ -31,5 +31,5 @@ int main() {
 	fclose(pf);	
 	}
 	return 0;
-	//thank you ayoub
+	//thanks
 }
