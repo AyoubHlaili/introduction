@@ -4,8 +4,6 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main() {
-	
-	/* test*/
 	FILE *pf;
 	int i,nben;
 	int matricule ;
@@ -33,4 +31,5 @@ int main() {
 	fclose(pf);	
 	}
 	return 0;
+	//thank you ayoub
 }
