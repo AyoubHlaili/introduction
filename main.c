@@ -15,19 +15,7 @@ int main() {
 		printf("erreur.\n");
 	}
 	else 
-	{
-		for(i=0;i<nben;i++){
-			printf("Donnez les info de l'enregistrement %i\n",i+1);
-			printf("Donner la matricule ");
-			scanf("%i",&matricule);
-			printf("Donner le nom ");
-			scanf("%s",&nom);
-			printf("Donner le prenom ");
-			scanf("%s",&prenom);
-			fprintf(pf,"%d\n%s\n%s\n",matricule,nom,prenom);
-			
-			
-		}
+	
 	fclose(pf);	
 	}
 	return 0;
